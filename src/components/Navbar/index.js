@@ -1,9 +1,32 @@
 import React from 'react'
+import { IMGLogo } from '../../assets'
+import { HiMenuAlt3 } from "react-icons/hi";
 
 export default function Navbar() {
     return (
-        <div>
-            Ini Navbar
+        <div className="py-5 bg-white font-rubik">
+            <div className="container mx-auto px-10 lg:px-20">
+                <div className="flex justify-between items-center">
+                    <div className="flex items-center">
+                        <img src={IMGLogo} className="mr-3" alt=""/>
+                        <span className="font-semibold">Lasles</span><span className="font-bold">VPN</span>
+                    </div>
+                    <div className="hidden lg:block">
+                        <span className="mr-7">About</span>
+                        <span className="mr-7">Features</span>
+                        <span className="mr-7">Pricing</span>
+                        <span className="mr-7">Testimonials</span>
+                        <span className="mr-7">Help</span>
+                    </div>
+                    <div className="hidden lg:block">
+                        <button className="font-bold mr-7">Sign Up</button>
+                        <button className="px-7 py-1 font-semibold text-main border-main border-2 rounded-full">Sign In</button>
+                    </div>
+                    <div className="block lg:hidden py-3 px-4 rounded-lg shadow-md">
+                        <HiMenuAlt3/>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
