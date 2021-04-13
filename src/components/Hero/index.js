@@ -6,8 +6,8 @@ import { HiUser, HiLocationMarker, HiServer } from "react-icons/hi";
 export default function Hero() {
     return (
         <div className="py-5 bg-white font-rubik">
-            <div className="container mx-auto px-10 lg:px-20">
-                <div className="flex items-center justify-between w-full mt-20">
+            <div className="container mx-auto px-10 lg:px-20 my-10 lg:my-20">
+                <div className="flex items-center justify-between w-full">
                     <div className="flex flex-col w-full lg:w-1/2">
                         <span className="xl:text-6xl text-4xl">Want anything to be easy with <span className="font-bold">LaslesVPN</span>.</span>
                         <span className="mt-10 xl:text-xl text-lg">Provide a network for all your needs with ease and fun using <span className="font-semibold">LaslesVPN</span> discover interesting features from us.</span>
@@ -19,7 +19,7 @@ export default function Hero() {
                         <img src={HeroLogo} alt=""/>
                     </div>
                 </div>
-                <div className="mt-20 shadow-2xl rounded-xl">
+                <div className="mt-10 lg:mt-20 shadow-2xl rounded-xl">
                     <div className="w-full grid grid-cols-1 md:grid-cols-3 md:p-5 justify-around">
                         <div className="flex p-5 justify-center">
                             <div className="bg-red-300 p-4 rounded-full items-center justify-center mr-5">
