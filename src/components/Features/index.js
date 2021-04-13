@@ -12,7 +12,7 @@ export default function Features() {
                     </div>
                     <div className="flex flex-col w-full lg:w-1/2 mt-10 lg:mt-0">
                         <span className="xl:text-5xl text-3xl">We Provide Many Features You Can Use</span>
-                        <span className="mt-10 xl:text-xl text-lg">Provide a network for all your needs with ease and fun using <span className="font-semibold">LaslesVPN</span> discover interesting features from us.</span>
+                        <span className="mt-10 xl:text-xl text-lg">You can explore the features that we provide with fun and have their own functions each feature.</span>
                         <div className="mt-10 space-y-5">
                             <span className="flex">
                                 <FaCheckCircle className="text-green-500 text-2xl mr-3" />

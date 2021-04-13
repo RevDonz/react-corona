@@ -7,8 +7,8 @@ export default function Navbar() {
         <div className="py-5 bg-white font-rubik">
             <div className="container mx-auto px-10 lg:px-20">
                 <div className="flex justify-between items-center">
-                    <div className="flex items-center">
-                        <img src={IMGLogo} className="mr-3" alt=""/>
+                    <div className="flex items-center justify-between">
+                        <img src={IMGLogo} className="mr-3 w-8 h-8" alt="Logo"/>
                         <span className="font-semibold">Lasles</span><span className="font-bold">VPN</span>
                     </div>
                     <div className="hidden lg:block text-gray-600">
