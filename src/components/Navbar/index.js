@@ -11,7 +11,7 @@ export default function Navbar() {
                         <img src={IMGLogo} className="mr-3" alt=""/>
                         <span className="font-semibold">Lasles</span><span className="font-bold">VPN</span>
                     </div>
-                    <div className="hidden lg:block">
+                    <div className="hidden lg:block text-gray-600">
                         <span className="mr-7">About</span>
                         <span className="mr-7">Features</span>
                         <span className="mr-7">Pricing</span>
@@ -19,10 +19,10 @@ export default function Navbar() {
                         <span className="mr-7">Help</span>
                     </div>
                     <div className="hidden lg:block">
-                        <button className="font-bold mr-7">Sign Up</button>
-                        <button className="px-7 py-1 font-semibold text-main border-main border-2 rounded-full">Sign In</button>
+                        <button className="font-bold mr-7 focus:outline-none">Sign Up</button>
+                        <button className="px-7 py-1 focus:outline-none transition-all duration-500 font-semibold text-first border-first border-2 rounded-full hover:bg-first hover:text-white">Sign In</button>
                     </div>
-                    <div className="block lg:hidden py-3 px-4 rounded-lg shadow-md">
+                    <div className="block lg:hidden py-3 px-4 rounded-lg shadow-md hover:shadow transition-all duration-100">
                         <HiMenuAlt3/>
                     </div>
                 </div>
