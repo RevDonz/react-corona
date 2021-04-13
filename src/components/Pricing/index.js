@@ -5,7 +5,7 @@ import { FaCheck } from "react-icons/fa";
 
 export default function Pricing() {
     return (
-        <div className="py-5 bg-gradient-to-b from-gray-100 to-white font-rubik">
+        <div className="py-5 bg-gradient-to-b from-gray-100 to-white font-rubik" id="pricing">
             <div className="container mx-auto px-10 lg:px-20 my-10 lg:my-20">
                 <div className="lg:w-1/2 w-full mx-auto text-center flex flex-col mb-10">
                     <span className="xl:text-5xl text-3xl font-semibold">Choose Your Plan</span>

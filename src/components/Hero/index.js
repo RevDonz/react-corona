@@ -5,7 +5,7 @@ import { HiUser, HiLocationMarker, HiServer } from "react-icons/hi";
 
 export default function Hero() {
     return (
-        <div className="py-5 bg-white font-rubik">
+        <div className="py-5 bg-white font-rubik" id="hero">
             <div className="container mx-auto px-10 lg:px-20 my-10 lg:my-20">
                 <div className="flex items-center justify-between w-full">
                     <div className="flex flex-col w-full lg:w-1/2">

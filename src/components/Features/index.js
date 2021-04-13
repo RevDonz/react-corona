@@ -4,7 +4,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 export default function Features() {
     return (
-        <div className="py-5 bg-white font-rubik">
+        <div className="py-5 bg-white font-rubik" id="features">
             <div className="container mx-auto px-10 lg:px-20 my-10 lg:my-20">
                 <div className="flex flex-col md:flex-row items-center justify-between w-full">
                     <div className="w-full lg:w-1/2">

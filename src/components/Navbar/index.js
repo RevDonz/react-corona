@@ -1,20 +1,50 @@
 import React from 'react'
 import { IMGLogo } from '../../assets'
-import { HiMenuAlt3 } from "react-icons/hi";
+import { HiMenuAlt3 } from "react-icons/hi"
+import { Link, animateScroll as scroll } from "react-scroll"
 
-export default function Navbar() {
+const Navbar = ({ scrollNav }) => {
+    const toggleHome = () => {
+      scroll.scrollToTop()
+    }
     return (
-        <div className="py-5 bg-white font-rubik">
+        <div className={`py-5 bg-white font-rubik ${scrollNav ? 'sticky top-0 z-20 shadow' : ''}`}>
             <div className="container mx-auto px-10 lg:px-20">
                 <div className="flex justify-between items-center">
-                    <div className="flex items-center justify-between">
-                        <img src={IMGLogo} className="mr-3 w-8 h-8" alt="Logo"/>
-                        <span className="font-semibold">Lasles</span><span className="font-bold">VPN</span>
-                    </div>
+                    <Link 
+                        to="/"
+                        onClick={toggleHome}
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                    >
+                        <div className="flex items-center justify-between">
+                            <img src={IMGLogo} className="mr-3 w-8 h-8" alt="Logo"/>
+                            <span className="font-semibold">Lasles</span><span className="font-bold">VPN</span>
+                        </div>
+                    </Link>
                     <div className="hidden lg:block text-gray-600">
                         <span className="mr-7">About</span>
-                        <span className="mr-7">Features</span>
-                        <span className="mr-7">Pricing</span>
+                        <Link 
+                            to="features" 
+                            className="mr-7 cursor-pointer" 
+                            spy={true}
+                            smooth={true}
+                            activeClass="text-first"
+                            duration={500}
+                        >
+                            Features
+                        </Link>
+                        <Link 
+                            to="pricing" 
+                            className="mr-7" 
+                            spy={true}
+                            smooth={true}
+                            activeClass="text-first"
+                            duration={500}
+                        >
+                            Pricing
+                        </Link>
                         <span className="mr-7">Testimonials</span>
                         <span className="mr-7">Help</span>
                     </div>
@@ -30,3 +60,5 @@ export default function Navbar() {
         </div>
     )
 }
+
+export default Navbar
