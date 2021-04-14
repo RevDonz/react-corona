@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Features, Hero, Navbar, Pricing } from './components';
+import { Features, Hero, Navbar, Pricing, Testimony } from './components';
 
 function App() {
   const [scrollNav, setScrollNav] = useState(false)
@@ -21,6 +21,7 @@ function App() {
       <Hero />
       <Features />
       <Pricing />
+      <Testimony />
     </div>
   );
 }

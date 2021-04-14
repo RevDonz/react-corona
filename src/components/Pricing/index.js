@@ -1,7 +1,7 @@
 import React from 'react'
 import { PriceIMG } from '../../assets'
 import { FaCheck } from "react-icons/fa";
-
+import { About } from "../index"
 
 export default function Pricing() {
     return (
@@ -12,7 +12,6 @@ export default function Pricing() {
                     <span className="text-base mt-10">Let's choose the package that is best for you and explore it happily and cheerfully.</span>
                 </div>
                 <div className="flex flex-wrap justify-center">
-
                     <div class="p-4 xl:w-1/3 md:w-1/2 w-3/4">
 						<div class="bg-white border-2 border-gray-200 hover:border-first transition-all duration-200 h-full rounded-lg mb-6 flex flex-col relative overflow-hidden items-center p-5">
                             <img src={PriceIMG} className="my-5" alt="Price"/>
@@ -111,9 +110,9 @@ export default function Pricing() {
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
+            <About />
         </div>
     )
 }

@@ -1,7 +1,6 @@
-import React from 'react'
-import { HeroLogo } from '../../assets'
-import { HiUser, HiLocationMarker, HiServer } from "react-icons/hi";
-
+import React from 'react';
+import { HeroLogo } from '../../assets';
+import { HiUser, HiLocationMarker, HiServer } from 'react-icons/hi';
 
 export default function Hero() {
     return (
@@ -9,14 +8,24 @@ export default function Hero() {
             <div className="container mx-auto px-10 lg:px-20 my-10 lg:my-20">
                 <div className="flex items-center justify-between w-full">
                     <div className="flex flex-col w-full lg:w-1/2">
-                        <span className="xl:text-6xl text-4xl">Want anything to be easy with <span className="font-bold">LaslesVPN</span>.</span>
-                        <span className="mt-10 xl:text-xl text-lg">Provide a network for all your needs with ease and fun using <span className="font-semibold">LaslesVPN</span> discover interesting features from us.</span>
+                        <span className="xl:text-6xl text-4xl">
+                            Want anything to be easy with{' '}
+                            <span className="font-bold">LaslesVPN</span>.
+                        </span>
+                        <span className="mt-10 xl:text-xl text-lg">
+                            Provide a network for all your needs with ease and
+                            fun using{' '}
+                            <span className="font-semibold">LaslesVPN</span>{' '}
+                            discover interesting features from us.
+                        </span>
                         <div className="mt-10">
-                            <button className="px-16 py-3 text-lg font-semibold bg-first focus:outline-none transition-all duration-500 hover:shadow-md text-white rounded-lg shadow-2xl">Get Started</button>
+                            <button className="px-16 py-3 text-lg font-semibold bg-first focus:outline-none transition-all duration-500 hover:shadow-md text-white rounded-lg shadow-2xl">
+                                Get Started
+                            </button>
                         </div>
                     </div>
                     <div className="w-1/2 hidden lg:block">
-                        <img src={HeroLogo} alt=""/>
+                        <img src={HeroLogo} alt="" />
                     </div>
                 </div>
                 <div className="mt-10 lg:mt-20 shadow-2xl rounded-xl">
@@ -52,5 +61,5 @@ export default function Hero() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
