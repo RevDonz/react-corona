@@ -2,6 +2,7 @@ import React from 'react';
 import { IMGLogo } from '../../assets';
 import { HiMenuAlt3 } from 'react-icons/hi';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Navbar = ({ scrollNav }) => {
     const toggleHome = () => {
@@ -23,11 +24,7 @@ const Navbar = ({ scrollNav }) => {
                         duration={500}
                     >
                         <div className="flex items-center justify-between">
-                            <img
-                                src={IMGLogo}
-                                className="mr-3 w-8 h-8"
-                                alt="Logo"
-                            />
+                            <LazyLoadImage alt="Logo" src={IMGLogo} className="mr-3" height={30} width={30} />
                             <span className="font-semibold">Lasles</span>
                             <span className="font-bold">VPN</span>
                         </div>
