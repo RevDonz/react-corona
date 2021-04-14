@@ -9,9 +9,9 @@ export default function Hero() {
             <div className="container mx-auto px-10 lg:px-20 my-10 lg:my-20">
                 <div className="flex items-center justify-between w-full">
                     <div className="flex flex-col w-full lg:w-1/2">
-                        <span className="xl:text-5xl text-3xl">
-                            Want anything to be <br/> easy with
-                            <span className="font-bold"> LaslesVPN</span>.
+                        <span className="xl:text-6xl text-4xl">
+                            Want anything to be easy with{' '}
+                            <span className="font-bold">LaslesVPN</span>.
                         </span>
                         <span className="mt-10 xl:text-xl text-lg">
                             Provide a network for all your needs with ease and
@@ -26,7 +26,7 @@ export default function Hero() {
                         </div>
                     </div>
                     <div className="w-1/2 hidden lg:block">
-                        <LazyLoadImage src={HeroLogo} alt="Hero Images" width="100%" />
+                        <LazyLoadImage src={HeroLogo} alt="Hero Images" className="w-min" />
                     </div>
                 </div>
                 <div className="mt-10 lg:mt-20 shadow-2xl rounded-xl">

@@ -9,7 +9,7 @@ export default function Features() {
             <div className="container mx-auto px-10 lg:px-20 my-10 lg:my-20">
                 <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full">
                     <div className="w-full lg:w-1/2 p-5">
-                        <LazyLoadImage src={FeaturesIMG} alt="Features Images" width="w-min" />
+                        <LazyLoadImage src={FeaturesIMG} alt="Features Images" />
                     </div>
                     <div className="flex flex-col w-full lg:w-1/2 mt-10 lg:mt-0">
                         <span className="xl:text-5xl text-3xl">We Provide Many Features You Can Use</span>

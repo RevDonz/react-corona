@@ -8,5 +8,8 @@ import Reddit from './images/reddit.png'
 import Discord from './images/discord.png'
 import Amazon from './images/amazon.png'
 import Spotify from './images/spotify.png'
+import User1 from './images/user1.png'
+import User2 from './images/user2.png'
+import User3 from './images/user3.png'
 
-export { IMGLogo, HeroLogo, FeaturesIMG, PriceIMG, AboutIMG, Netflix, Reddit, Amazon, Discord, Spotify }
+export { IMGLogo, HeroLogo, FeaturesIMG, PriceIMG, AboutIMG, Netflix, Reddit, Amazon, Discord, Spotify, User1, User2, User3 }

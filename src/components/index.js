@@ -3,7 +3,8 @@ import Hero from './Hero'
 import Features from './Features'
 import Pricing from './Pricing'
 import About from './About'
-import Testimony from './Testimony'
+import Testimonial from './Testimonial'
+import TestimonialItem from './TestimonialItem'
 
 export {
     About,
@@ -11,5 +12,6 @@ export {
     Hero,
     Features,
     Pricing,
-    Testimony
+    Testimonial,
+    TestimonialItem,
 }
