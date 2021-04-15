@@ -11,14 +11,12 @@ const TestimonialItem = () => {
     const sliderRef = useRef(null);
     const settings = {
         dots: true,
+        dotClass: 'slick-dots',
         arrow: false,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        customPaging: i => (
-            <div className="bg-gray-300 p-3 rounded-full active:bg-red-300" />
-          )
     };
     const next = () => sliderRef.current.slickNext();
     const prev = () => sliderRef.current.slickPrev();
@@ -27,7 +25,7 @@ const TestimonialItem = () => {
             <Slider {...settings} ref={sliderRef}>
                 {dataTesti.map((photo) => {
                     return (
-                        <div className='focus:outline-none w-full'>
+                        <div className='focus:outline-none w-full p-3'>
                             <div className='rounded-lg bg-white border-2 border-gray-300 p-5 h-full'>
                                 <div className='flex items-center'>
                                     <LazyLoadImage

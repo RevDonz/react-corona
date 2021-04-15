@@ -1,8 +1,14 @@
 .slick-dots {
-    text-align: left !important;
-    bottom: -35px !important;
-  }
+  text-align: left !important;
+  bottom: -35px !important;
+  margin-left: 10px;
+}
 
-  .slick-dots li.slick-active button:before {
-    color: #F53838 !important;
-  }
+.slick-dots li button {
+  width: 100px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: red;
+}
+

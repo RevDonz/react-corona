@@ -12,7 +12,9 @@ const Testimonial = () => {
                     with great pleasure when using this crazy feature.
                 </span>
             </div>
-            <TestimonialItem />
+            <div className="">
+                <TestimonialItem />
+            </div>
         </div>
     );
 }
