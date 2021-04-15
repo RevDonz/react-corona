@@ -60,13 +60,13 @@ const TestimonialItem = () => {
             </Slider>
             <div className='flex pt-5 ml-auto'>
                 <button
-                    className='p-4 mr-5 focus:outline-none border-2 border-first bg-white hover:bg-first text-first hover:text-white rounded-full'
+                    className='p-4 mr-5 focus:outline-none border-2 transition-all duration-300 border-first bg-white hover:bg-first text-first hover:text-white rounded-full'
                     onClick={prev}
                 >
                     <FaArrowLeft />
                 </button>
                 <button
-                    className='p-4 focus:outline-none border-2 border-first bg-white hover:bg-first text-first hover:text-white rounded-full'
+                    className='p-4 focus:outline-none border-2 transition-all duration-300 border-first bg-white hover:bg-first text-first hover:text-white rounded-full'
                     onClick={next}
                 >
                     <FaArrowRight />

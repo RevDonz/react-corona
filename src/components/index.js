@@ -5,6 +5,7 @@ import Pricing from './Pricing'
 import About from './About'
 import Testimonial from './Testimonial'
 import TestimonialItem from './TestimonialItem'
+import Footer from './Footer'
 
 export {
     About,
@@ -14,4 +15,5 @@ export {
     Pricing,
     Testimonial,
     TestimonialItem,
+    Footer
 }
