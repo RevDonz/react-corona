@@ -14,7 +14,7 @@ const Navbar = ({ scrollNav }) => {
                 scrollNav ? 'sticky top-0 z-20 shadow' : ''
             }`}
         >
-            <div className="container mx-auto px-10 lg:px-20">
+            <div className="container mx-auto px-5 lg:px-20">
                 <div className="flex justify-between items-center">
                     <Link
                         to="/"

@@ -2,7 +2,7 @@ import TestimonialItem from '../TestimonialItem'
 
 const Testimonial = () => {
     return (
-        <div className='container mx-auto px-10 lg:px-20 my-10' id='testimoni'>
+        <div className='container mx-auto px-5 lg:px-20 my-10' id='testimoni'>
             <div className='lg:w-1/2 w-full mx-auto text-center flex flex-col mb-10'>
                 <span className='xl:text-5xl text-3xl font-semibold'>
                     Trusted by Thousands of Happy Customer
@@ -13,7 +13,7 @@ const Testimonial = () => {
                 </span>
             </div>
             <div className="">
-                <TestimonialItem />
+                {/* <TestimonialItem /> */}
             </div>
         </div>
     );

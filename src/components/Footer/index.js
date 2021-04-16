@@ -6,10 +6,10 @@ import { FaFacebookF, FaTwitter, FaInstagramSquare } from "react-icons/fa";
 export default function Footer() {
     return (
         <div className="py-5 bg-gradient-to-b from-gray-100 to-white font-rubik" id="pricing">
-            <div className="container mx-auto px-10 lg:px-20 my-10 lg:my-20 relative">
-                <div className="bg-white w-full p-10 -top-36 shadow-md rounded-lg ">
+            <div className="container mx-auto px-5 lg:px-20 my-10 lg:my-20 relative">
+                {/* <div className="bg-white w-full p-10 -top-36 shadow-md rounded-lg ">
                     a
-                </div>
+                </div> */}
                 <div className="grid grid-cols-5">
                     <div className="col-span-2">
                         <div className="flex items-center">

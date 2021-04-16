@@ -6,7 +6,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 export default function Features() {
     return (
         <div className="py-5 bg-white font-rubik" id="features">
-            <div className="container mx-auto px-10 lg:px-20 my-10 lg:my-20">
+            <div className="container mx-auto px-5 lg:px-20 my-10 lg:my-20">
                 <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full">
                     <div className="w-full lg:w-1/2 p-5">
                         <LazyLoadImage src={FeaturesIMG} alt="Features Images" />

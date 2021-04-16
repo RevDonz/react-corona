@@ -6,7 +6,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 export default function Hero() {
     return (
         <div className="py-5 bg-white font-rubik" id="hero">
-            <div className="container mx-auto px-10 lg:px-20 my-10 lg:my-20">
+            <div className="container mx-auto px-5 lg:px-20 my-10 lg:my-20">
                 <div className="flex items-center justify-between w-full">
                     <div className="flex flex-col w-full lg:w-1/2">
                         <span className="xl:text-6xl text-4xl">
@@ -30,7 +30,7 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className="mt-10 lg:mt-20 shadow-2xl rounded-xl">
-                    <div className="w-full grid grid-cols-1 md:grid-cols-3 md:p-5 justify-around">
+                    <div className="w-full grid grid-cols-1 md:grid-cols-3 md:p-5 justify-around divide-x-2">
                         <div className="flex p-5 justify-center">
                             <div className="bg-red-300 p-4 rounded-full items-center justify-center mr-5">
                                 <HiUser className="text-red-500" />
