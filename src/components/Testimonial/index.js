@@ -1,4 +1,4 @@
-import TestimonialItem from '../TestimonialItem'
+// import TestimonialItem from '../TestimonialItem'
 
 const Testimonial = () => {
     return (
